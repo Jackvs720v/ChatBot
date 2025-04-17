@@ -30,3 +30,12 @@ def conversar(request: MensagemRequest):
 def resetar():
     bot.resetar()
     return {"Status":"Chat resetado com sucesso !"}
+
+
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"Hello": "World"}
