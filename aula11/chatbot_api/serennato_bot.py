@@ -47,8 +47,6 @@ class SerenattoBot:
         self.chat_engine = None
         self.carregar_pdf()
 
-    
-
     #Cria funçao para carregar o pdf
 
     def carregar_pdf(self):
